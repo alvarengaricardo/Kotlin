@@ -9,7 +9,7 @@ package variables
     Short   16
     Byte    8
     Double  64
-    Flat    32
+    Float   32
 
  */
 
