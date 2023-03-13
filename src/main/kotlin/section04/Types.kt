@@ -1,4 +1,4 @@
-package _04_0403_datatypes
+package section04
 
 fun main(){
     val myPhrase = "I'm a String."
@@ -21,5 +21,5 @@ fun main(){
 
     val anInt: Int = 7
     val aLong: Long = anInt.toLong()
-    
+
 }
