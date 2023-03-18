@@ -18,7 +18,21 @@ fun main() {
         println("item = $item")
     }
 
-    for (ch in "Ricardo"){
+    for (i in 6 downTo 0 step 2) {
+        println(i)
+    }
+
+    print("for (i in 5 downTo 1) print(i) = ")
+    for (i in 5 downTo 1) print(i)
+    println()
+
+    for (ch in "Ricardo") {
         println(ch)
     }
+
+    for (chars in 'a'..'z') {
+        print(chars)
+    }
+    println()
+    
 }

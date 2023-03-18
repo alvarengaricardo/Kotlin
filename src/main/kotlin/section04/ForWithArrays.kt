@@ -14,7 +14,15 @@ fun main() {
     println()
 
     val myArray = arrayOf(10, 20, 30, 40, 50, 60)
-    for (item in myArray.indices){
+    for (item in myArray.indices) {
         println("At index $item is ${myArray[item]}")
     }
+
+    var language = arrayOf("Ruby", "Kotlin", "Python", "Java")
+    for (item in language.indices) {
+        // printing array elements having even index only
+        if (item % 2 == 0)
+            println(language[item])
+    }
+
 }
