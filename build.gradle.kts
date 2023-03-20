@@ -11,7 +11,11 @@ repositories {
 }
 
 dependencies {
+    implementation("junit:junit:4.13.1")
+    implementation("org.junit.jupiter:junit-jupiter:5.8.1")
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter:5.8.2")
+    implementation("org.amshove.kluent:kluent:1.71")
 }
 
 tasks.test {
